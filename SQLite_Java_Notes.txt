@@ -1,0 +1,28 @@
+SQLite Java Notes
+
+SQLite Installation Links & Tutorials:
+	https://www.tutorialspoint.com/sqlite/sqlite_installation.htm
+	
+The installation link is in Step 1 for your respective OS.
+There are precompiled executable binaries for Windows that defintely work.
+You may have to compile your own Mac OS files, however.
+
+
+JDBC (Java DataBase Connectivity) Installation Links & Tutorials:
+	https://www.tutorialspoint.com/sqlite/sqlite_java.htm
+	
+The link to the .JAR that you'll need is at the first bullet point under Installation.
+The easiest way to get it working for our code is to just copy the .JAR file into:
+	[whatever-your-JRE-file-path-is]/lib/ext
+for example, on my Windows 10 laptop, the folder is:
+	C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext
+Just copy the .JAR straight in there and you should be good to go.
+
+
+NinjaDB.db (the Database):
+	Make sure you have the NinjaDB.db database file in the 
+top level folder for your NetBeans/Eclipse project.  It should
+be the folder where you see the "src" folder, but NOT within "src".
+for example:
+	C:\Users\JTS\Documents\NetBeansProjects\pos
+	
